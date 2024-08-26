@@ -2,7 +2,7 @@
 # CRUD - Laravel & Livewire
 
 CRUD de un producto hecho en Laravel 11 y Livewire 3
-
+Made by Gabriel Ravelo
 
 
 ## Tecnologías Usadas
