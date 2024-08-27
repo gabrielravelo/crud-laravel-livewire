@@ -30,14 +30,26 @@ Pasos para instalar el proyecto
 ``` 
 
 ```bash
-  php artisan key:generate
-``` 
-
-```bash
   cp .env.example .env
 ``` 
 Luego de copiar el .env, configurar la base de datos para correr las migraciones
 
 ```bash
+  php artisan key:generate
+``` 
+
+```bash
   php artisan migrate --seed
 ``` 
+
+```bash
+  php artisan serve
+``` 
+
+En otra terminal:
+
+```bash
+  npm run dev
+``` 
+
+Con esto el proyecto estará corriendo de manera correcta.
